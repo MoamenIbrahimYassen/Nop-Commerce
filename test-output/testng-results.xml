@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-25T17:08:44 EET" name="Suite" finished-at="2022-10-25T17:08:56 EET" duration-ms="12111">
+    <groups>
+    </groups>
+    <test started-at="2022-10-25T17:08:44 EET" name="Test" finished-at="2022-10-25T17:08:56 EET" duration-ms="12111">
+      <class name="Testsexecution.Testcases">
+        <test-method is-config="true" signature="bef(java.lang.String)[pri:0, instance:Testsexecution.Testcases@2805d709]" started-at="2022-10-25T17:08:40 EET" name="bef" finished-at="2022-10-25T17:08:44 EET" duration-ms="3245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chroMe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bef -->
+        <test-method signature="OpenHomePage()[pri:0, instance:Testsexecution.Testcases@2805d709]" started-at="2022-10-25T17:08:44 EET" name="OpenHomePage" finished-at="2022-10-25T17:08:44 EET" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHomePage -->
+        <test-method is-config="true" signature="takescreenshoot(org.testng.ITestResult)[pri:0, instance:Testsexecution.Testcases@2805d709]" started-at="2022-10-25T17:08:44 EET" name="takescreenshoot" finished-at="2022-10-25T17:08:44 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenHomePage status=SUCCESS method=Testcases.OpenHomePage()[pri:0, instance:Testsexecution.Testcases@2805d709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshoot -->
+        <test-method signature="Regester()[pri:0, instance:Testsexecution.Testcases@2805d709]" started-at="2022-10-25T17:08:44 EET" name="Regester" finished-at="2022-10-25T17:08:47 EET" depends-on-methods="Testsexecution.Testcases.OpenHomePage" duration-ms="2893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Regester -->
+        <test-method is-config="true" signature="takescreenshoot(org.testng.ITestResult)[pri:0, instance:Testsexecution.Testcases@2805d709]" started-at="2022-10-25T17:08:47 EET" name="takescreenshoot" finished-at="2022-10-25T17:08:47 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Regester status=SUCCESS method=Testcases.Regester()[pri:0, instance:Testsexecution.Testcases@2805d709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshoot -->
+        <test-method signature="Logout()[pri:0, instance:Testsexecution.Testcases@2805d709]" started-at="2022-10-25T17:08:47 EET" name="Logout" finished-at="2022-10-25T17:08:48 EET" depends-on-methods="Testsexecution.Testcases.Regester" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="takescreenshoot(org.testng.ITestResult)[pri:0, instance:Testsexecution.Testcases@2805d709]" started-at="2022-10-25T17:08:48 EET" name="takescreenshoot" finished-at="2022-10-25T17:08:48 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logout status=SUCCESS method=Testcases.Logout()[pri:0, instance:Testsexecution.Testcases@2805d709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshoot -->
+        <test-method signature="Login()[pri:0, instance:Testsexecution.Testcases@2805d709]" started-at="2022-10-25T17:08:48 EET" name="Login" finished-at="2022-10-25T17:08:51 EET" depends-on-methods="Testsexecution.Testcases.Logout" duration-ms="2379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="takescreenshoot(org.testng.ITestResult)[pri:0, instance:Testsexecution.Testcases@2805d709]" started-at="2022-10-25T17:08:51 EET" name="takescreenshoot" finished-at="2022-10-25T17:08:51 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=Testcases.Login()[pri:0, instance:Testsexecution.Testcases@2805d709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshoot -->
+        <test-method signature="SEARCH()[pri:0, instance:Testsexecution.Testcases@2805d709]" started-at="2022-10-25T17:08:51 EET" name="SEARCH" finished-at="2022-10-25T17:08:56 EET" depends-on-methods="Testsexecution.Testcases.Login" duration-ms="4883" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Apple MacBook Pro 13-inch] but found [[[ChromeDriver: chrome on WINDOWS (d52aabc147b48f8457bb7b4c89e0c32b)] -> xpath: //*[@id="product-details-form"]/div[2]/div[1]/div[2]/div[1]/h1]]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Apple MacBook Pro 13-inch] but found [[[ChromeDriver: chrome on WINDOWS (d52aabc147b48f8457bb7b4c89e0c32b)] -> xpath: //*[@id="product-details-form"]/div[2]/div[1]/div[2]/div[1]/h1]]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:617)
+at introductions.PageBasis.assertion(PageBasis.java:27)
+at first.SearchWithOutClickOnButton.SearchWithoutButton(SearchWithOutClickOnButton.java:31)
+at Testsexecution.Testcases.SEARCH(Testcases.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SEARCH -->
+        <test-method is-config="true" signature="takescreenshoot(org.testng.ITestResult)[pri:0, instance:Testsexecution.Testcases@2805d709]" started-at="2022-10-25T17:08:56 EET" name="takescreenshoot" finished-at="2022-10-25T17:08:56 EET" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SEARCH status=FAILURE method=Testcases.SEARCH()[pri:0, instance:Testsexecution.Testcases@2805d709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshoot -->
+        <test-method is-config="true" signature="aft()[pri:0, instance:Testsexecution.Testcases@2805d709]" started-at="2022-10-25T17:08:56 EET" name="aft" finished-at="2022-10-25T17:08:56 EET" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aft -->
+      </class> <!-- Testsexecution.Testcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
